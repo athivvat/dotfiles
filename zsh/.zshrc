@@ -35,3 +35,8 @@ POWERLEVEL9K_STATUS_VERBOSE=true
 POWERLEVEL9K_STATUS_CROSS=true
 
 export DEFAULT_USER="$USER"
+
+# Set aliases
+if [ -f ~/.aliases ]; then
+    source ~/.aliases
+fi
